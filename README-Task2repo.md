@@ -12,15 +12,15 @@ I'm excited to demonstrate my Git skills by showcasing projects that I've succes
 
 Here are some of the projects I've pushed to remote repositories, each with its own detailed README file:
 
-### [Project 1: MY CV ]
+### [Project 1: MY CV ](/projects/@WhitelightningDev's My Cv)
 - Repository: [Link]([https://github.com/your-username/project1](https://whitelightningdev.github.io/MyCv/))
 - Description: Welcome to "My CV" project! This is a simple repository containing my personal CV in a digital format. It serves as a showcase of my skills, experiences, and qualifications.
 
-### [Project 2: PASSION PURSUITS]
+### [Project 2: PASSION PURSUITS](/projects/project2)
 - Repository: [Link]([https://github.com/your-username/project2](https://whitelightningdev.github.io/Passion-Pursuits/))
 - Description: Passion Pursuits is a website where wakeboarders alike can access lessons and teachings on how to wakeboard as well as find boards and buy them from the sites provided.
 
-### [Project 3: FIT FUSION]
+### [Project 3: FIT FUSION](/projects/project2)
 - Repository: [Link]([https://github.com/your-username/project3](https://whitelightningdev.github.io/FitFusion/))
 - Description: fit fusion is a gym application where users can create their own workout schedules as well as track workouts that will help them improve their lifestyle.
 
