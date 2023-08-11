@@ -12,7 +12,7 @@ I'm excited to demonstrate my Git skills by showcasing projects that I've succes
 
 Here are some of the projects I've pushed to remote repositories, each with its own detailed README file:
 
-### [Project 1: MY CV ](/projects/@WhitelightningDev's My Cv)
+### [Project 1: MY CV ]
 - Repository: [Link]([https://github.com/your-username/project1](https://whitelightningdev.github.io/MyCv/))
 - Description: Welcome to "My CV" project! This is a simple repository containing my personal CV in a digital format. It serves as a showcase of my skills, experiences, and qualifications.
 
