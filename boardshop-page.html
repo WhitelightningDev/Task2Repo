@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="animation.js"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon-icon.png" type="image/x-icon">
+    <title>Passion Pursuites</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <!-- Header left content -->
+                </div>
+                <div class="col-4 text-center">
+                    <!-- Logo -->
+                    <a class="blog-header-logo text-dark" href="index.html"><img src="images/passionpursuits.png"
+                            alt=""></a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <!-- Search button -->
+                    <a class="link-secondary" href="#" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+                            viewBox="0 0 24 24">
+                            <title>Search</title>
+                            <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                            <path d="M21 21l-5.2-5.2"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-between">
+                <a class="p-2 link-secondary" href="index.html">Home</a>
+                <a class="p-2 link-secondary" href="technique-page.html">Techniques</a>
+                <a class="p-2 link-secondary" href="lessons-page.html">Lessons</a>
+                <a class="p-2 link-secondary" href="boardshop-page.html">Board Shop</a>
+                <a class="p-2 link-secondary" href="contact-us.html">Contact me</a>
+                <a class="p-2 link-secondary" href="saveforlater.html">Save for later</a>
+            </nav>
+        </div>
+    </div>
+    <!-- Heading Conatiner -->
+    <div class="container marketing">
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="images/favicon-icon.png" alt="" width="100" height="100">
+            <h1 class="display-5 fw-bold">Welcome to the Board Shop</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Welcome to our Board Shop! We are your go-to destination for all things
+                    wakeboarding. As passionate wakeboarders ourselves, we curate a collection of top-quality wakeboards
+                    from renowned brands, sourced from Wakeboards.com, for your reference and inspiration. Whether
+                    you're a seasoned rider or just starting out, our shop provides a wide selection of boards to suit
+                    every skill level and riding style. Be sure to check out our links to the store, where you can
+                    easily purchase the wakeboard of your dreams and hit the water in style!</p>
+                <hr>
+                <h1>Choose your size of wakeboard</h1>
+            </div>
+
+            <!-- Dropdown menu -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="sizeDropdown" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select Size
+                </button>
+                <div class="dropdown-menu" aria-labelledby="sizeDropdown">
+                    <input type="radio" name="size" value="small" class="dropdown-item"> Small
+                    <input type="radio" name="size" value="medium" class="dropdown-item"> Medium
+                    <input type="radio" name="size" value="large" class="dropdown-item"> Large
+                    <!-- Close button -->
+                    <img id="closebtn" src="images/close.png" class="btn btn-link close-button" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- wakeboard content -->
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">LiquidForce FLX Wakeboard 2017
+                <span class="text-muted"><br>R7,900.00</span>
+            </h2>
+            <p class="lead">The LiquidForce FLX Wakeboard delivers the durable yet playful ride you want. If you
+                want to hit the park, or shred behind the boat, you’ll be happy you choose the FLX.Available for
+                order on-line in South Africa exclusively through <a
+                    href="https://wakeboards.co.za/product-category/wake/boards/cable/">www.wakeboards.co.za.</a>
+            </p>
+            <button class="saveButton" type="submit">Save for later</button>
+        </div>
+        <div class="col-md-5">
+            <img class="grow-on-hover" src="images/Liquidforce-FLX-Wakeboard-135-200x200.png" alt="">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Hyperlite Ripsaw Wakeboard<span class="text-muted"> <br>R8 000</span>
+            </h2>
+            <p class="lead">The Hyperlite Ripsaw Wakeboard was created to get you out on the cable, a great value
+                for a great price to last throughout the season and further down the line. The Variable Thickness
+                Profile delivers strategic flex zones with more flex in the tip and tail and less between the
+                bindings. Overall however, the Ripsaw is a flexy deck perfect for all ability levels. Molded into
+                the shape are Full Length Center Channels to assist with tracking on approach to features and
+                kickers. Hyperlite’s full wrap Urethane Sidewalls molded into the perimeter and a Sintered Base will
+                take the abuse dished out by riders pushing their limits.
+                <br>
+                Available for order on-line in South Africa exclusively through <a
+                    href="https://wakeboards.co.za/product-category/wake/boards/cable/">www.wakeboards.co.za.</a>
+            </p>
+            <button class="saveButton" type="submit">Save for later</button>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="grow-on-hover" src="images/Hyperlite-2020-Ripsaw-Wakeboard-1-200x200.jpeg" alt="">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">LiquidForce 2020 Peak Wakeboard<span class="text-muted">
+                    <br>R9,500.00</span></h2>
+            <p class="lead">The FSC wood core is not sustainable, but it adds durability AND a more spring loaded
+                flex with rebound. The unique single concave hull shape, mid body channels, and a concave beveled
+                edge allows this board to be ridden finless and still hold a solid edge. With the LF exclusive
+                liquid rails and grind base, this board can take a beating on any feature. Adding to the already
+                impressive flex pattern of this board, the FlexTrack system will have you more connected and in
+                control than ever before. Be happy, ride a Peak. Available for order on-line in South Africa
+                exclusively through <a
+                    href="https://wakeboards.co.za/product-category/wake/boards/cable/">www.wakeboards.co.za.</a>
+            </p>
+            <button class="saveButton" type="submit">Save for later</button>
+        </div>
+        <div class="col-md-5">
+            <img class="grow-on-hover" src="images/LiquidForce-2020-Peak-Wakeboard-200x200.png" alt="">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- END OF FEATURETTES -->
+
+    </div>
+    <script src="script.js"></script>
+</body>
+<div id="typeform" data-tf-widget="mGigkyFw" data-tf-opacity="100"
+    data-tf-iframe-props="title=Event Lead Capture (copy)" data-tf-transitive-search-params data-tf-medium="snippet"
+    style="width:100%;height:500px;"></div>
+<script src="https://embed.typeform.com/next/embed.js"></script>
+
+</html>
